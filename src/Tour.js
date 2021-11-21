@@ -18,7 +18,7 @@ const Tour = ({ id, image, info, price, name, removeTour }) => {
           </button>
         </p>
         <button className="delete-btn" onClick={() =>{removeTour(id)}}>not interested</button>
-      </footer>
+      </footer> 
 </article>
     )
 }; 
